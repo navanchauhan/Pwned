@@ -1,6 +1,8 @@
 # Pwned
 Requirements :
+
 An Internet Connection "Duh"
+
 Jq `sudo apt-get install jq`
 
 ## Usage :
