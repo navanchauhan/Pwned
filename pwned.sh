@@ -30,8 +30,8 @@ clear
 header
 echo ""
 echo "Checking if you have been Pwned"
-curl -s -o breach.json "https://haveibeenpwned.com/api/v2/breachedaccount/"$account""
-curl -s -o pasteacc.json "https://haveibeenpwned.com/api/v2/pasteaccount/"$account""
+curl -s -o breach.json "https://haveibeenpwned.com/api/v2/breachedaccount/$account"
+curl -s -o pasteacc.json "https://haveibeenpwned.com/api/v2/pasteaccount/$account"
 #curl -s -o pwnedpassword.json "https://haveibeenpwned.com/api/v2/pwnedpassword/"$account""
 
 clear
